@@ -1,40 +1,102 @@
+/* ===== Global Styles ===== */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
-  background: #f9f9f9;
-  color: #333;
+  background: #f4f6f8;
+  color: #2c2c2c;
+  line-height: 1.7;
 }
 
+/* ===== Header / Hero ===== */
 header {
-  background: #8b0000;
+  background: linear-gradient(135deg, #8b0000, #b22222);
   color: white;
-  padding: 2rem;
+  padding: 3.5rem 1.5rem;
   text-align: center;
 }
 
-section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+header h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
 }
 
+header p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: auto;
+  opacity: 0.95;
+}
+
+/* ===== Main Sections ===== */
+section {
+  background: white;
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+/* Section Titles */
 h2 {
+  color: #8b0000;
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.6rem;
+}
+
+/* ===== Partners Section (future-ready) ===== */
+section p em {
+  color: #666;
+}
+
+/* ===== Callouts / Emphasis ===== */
+strong {
   color: #8b0000;
 }
 
+/* ===== Contact Links ===== */
+a {
+  color: #8b0000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Footer ===== */
 footer {
-  background: #eee;
-  padding: 1.5rem;
-  text-align: center;
+  background: #ffffff;
+  max-width: 900px;
+  margin: 3rem auto 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
   font-size: 0.9rem;
+  color: #555;
+  text-align: center;
 }
 
-section:last-of-type {
-  border-bottom: none;
-}
+/* ===== Mobile Responsiveness ===== */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.1rem;
+  }
 
-section {
-  border-bottom: 1px solid #ddd;
+  section {
+    margin: 1.5rem 1rem;
+    padding: 1.8rem;
+  }
 }
