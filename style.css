@@ -100,3 +100,27 @@ footer {
     padding: 1.8rem;
   }
 }
+
+/* ===== Contact Section Styling ===== */
+.contact {
+  color: #333;
+}
+
+.contact h2 {
+  color: #8b0000;
+}
+
+.contact strong {
+  color: #333;
+}
+
+.contact a {
+  color: #1a1a1a;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.contact a:hover {
+  color: #555;
+  text-decoration: underline;
+}
