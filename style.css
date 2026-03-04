@@ -120,6 +120,19 @@ footer {
   font-weight: 500;
 }
 
+section {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  padding-left: 20px;
+}
+
 .contact a:hover {
   color: #555;
   text-decoration: underline;
